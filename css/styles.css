@@ -9,12 +9,22 @@ body {
 
 #mainheader {
     background-color: rgb(51, 211, 195);
+    text-align: left;
 }
 
-#leftmenu {
+.leftmenu {
     float: left;
     width: 30%;
     margin-bottom: 20px;
+}
+
+.leftmenu img {
+    width: 300px; 
+    height: 300px;
+}
+
+.leftmenu header {
+    text-align: center;
 }
 
 nav {
@@ -30,10 +40,14 @@ nav {
     
 }
 
-#main {
+.main {
     float: right;
     width: 70%;
     margin-bottom: 20px;
+}
+
+.main img {
+    width: 300px;
 }
 
 footer {
