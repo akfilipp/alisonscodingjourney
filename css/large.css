@@ -1,0 +1,5 @@
+@media only screen and (min-width: 1024px) {
+
+    header h1 {color: #333333;}
+
+   .large-3 {width: 25%;} /* end of media query*/

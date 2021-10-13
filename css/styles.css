@@ -1,14 +1,20 @@
 body {
     margin-top: 0px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 10px;
-    background-color: chartreuse;
-    background-image: url('images/pattern.png');
+    background-color: #78cc33;
+}
+header {
+    vertical-align: center;
+    font-size: 600;
+    font-weight: bold;
 }
 
 #mainheader {
-    background-color: rgb(51, 211, 195);
+    background-color:#33cc99;
     text-align: left;
+    font-size:x-large;
+    font-weight: bolder;
 }
 
 .leftmenu {
@@ -34,7 +40,7 @@ nav {
 
 .searchbox {
     padding: 5px;
-    margin: 10px 155px 10px;
+    margin: 10px 0px 10px 0px;
     width: 200px;
     
 }
@@ -50,10 +56,11 @@ nav {
 }
 
 .main figure {
-    border: 5px solid purple;
+    border: 5px solid #333333;
     padding: 2rem;
     margin:5px 30px 5px 0px;
 }
+
 
 footer {
     clear: both;
@@ -62,9 +69,9 @@ footer {
 }
  
 p {
-    color: rgb(43, 41, 41);
+    color: #333333;
 }
-header, 
+, 
 section,
 footer,
 aside,

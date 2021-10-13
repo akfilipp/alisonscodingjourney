@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
 <head>
     <meta charset="UTF-8">
-    <title>Alison's Coding Journey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scalle=1">
     <meta name="author" content="Alison Filippini">
     <meta name="description" content="CodeLou FEWD practice page">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;600&display=swap" rel="stylesheet"> 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Home | Alison's Coding Journey</title>
+    
+    
 </head> 
 
 <body>
-    <header id="mainheader">
-        <nav>
+    <header class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <img src="images/codingimages/codelogo.svg">
+                <h1>Welcome to Alison's Coding Journey!</h1> 
+            </section>
+        </div> <!--end of row-->
+       <!-- Code from PS html tutorial. Might need later? <nav>
             <header>
-                <h1>Wecome to Alison's Coding Journey!</h1> 
+                
             </header>
         </nav>
+        -->
     </header>
 
     <div>
         <aside class="leftmenu">
             <img src="images/codingimages/codelogo.svg" ; />
-            <header>
+            <!-- Code from PS html tutorial. Might need later? <header>
                 <h4>Browse</h4>
-            </header>
+            </header> -->
+            <h4>Browse</h4>
             <input type="search" class="searchbox" placeholder="Search this website"; />
         </aside>
     
@@ -32,12 +49,14 @@
             <article>
                 <h2>Watch me learn how to build a website . . .</h2>
                 <p>
-                    Hello world! I'm a student in the <b>Code Louisville</b> program, in the <i>September 2021</i> 
-                    Front End Web Development (aka, FEWD) cohort. FEWD is a beginner level course. The world of coding and web development is a
-                    challenging but exciting detour along my career journey. I have been a teacher for most of my adult life, but this is not my first time 
-                    attempting a career change. I got more than halfway through graphic design school back in the early 2000s, but ran out 
-                    of money and had to stop. Learning to build websites allows me to dig some of those design skills up from the archives of this old brain.
-                    It may take a minute, but I will get there . . .
+                    Hello world! I'm a student in the <b>Code Louisville</b> program, in the <i>September 2021</i> Front End Web Development 
+                    (aka, FEWD) cohort. FEWD is a beginner level course. <br><br>The world of coding and web development is a challenging but 
+                    exciting detour along my career journey. I have been an educator for most of my adult life, but this is not my first time 
+                    attempting a career change. Back in the early 2000s I thought I'd be happier working in a field that allowed me to be creative.
+                    So I chased that dream for a few years, living my best life as a graphic design student by night and t-shirt designer by day 
+                    (sometimes the other way around), until I ran out of money and had to drop out of art school a couple semesters shy of graduation.
+                    Building websites allows me to dig up some of those design skills from the archives of this old brain. It may take a minute, 
+                    but I will get there . . .
                 </p>
                 <br>
 
@@ -47,15 +66,68 @@
                 <figure>
                     <h4>... and here!&#10549;</h4> 
                     <img src="images/codingimages/womancoding.png" alt= "Woman coding" />
-                    <figcaption>Now I know how to add borders!</figcaption>
+                    <figcaption><i>Yay, now I know how to add borders!</i></figcaption>
                 </figure>
             </article>
     
-            <footer>
-                &copy; 2021 Alison's Coding Journey - All rights reserved
-            </footer>
+    <footer class="clearfix">
+        <div class="row">
+            <section class="column small-12 medium-6 large-3">
+                <h2>About Me</h2>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Portfolio</h2>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Current Projects</h2>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Social</h2>
+            </section>
             
-        </main>
+        </div>
+        &copy; 2021 Alison's Coding Journey - All rights reserved
+
+        <!--Bethany's Pie Shop DEMO CODE below:
+
+        <div class="row">
+            <section class="column small-12 medium-6 large-3">
+                <h2>Location</h2>
+                <ul>
+                    <li>Bethany's Pie Shop</li>
+                    <li>123 Bakery Street</li> 
+                    <li>Brussels, Belgium</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Company</h2>
+                <ul>
+                    <li>Catering</li>
+                    <li>Delivery</li> 
+                    <li>Swag Shop</li>
+                    <li>Support</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Social</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li> 
+                    <li>Instagram</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>About Us</h2>
+                <img src="images/logo2.png" alt="logo">
+                <p>&copy; 2020 &bull; all rights reserved.</p>
+            </section>
+        </div> --> 
+        <!-- end row -->
+    </footer>
+
+                
+                
+            </main>
     </div>
 
 </body>
